@@ -1,3 +1,94 @@
 body {
   background: papayawhip;
 }
+
+div {
+  background-color: burlywood;
+  border: 2px solid rgb(138, 108, 62);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: normal;
+  align-content: normal;
+}
+
+.a {
+  width: 100%;
+height: 150px;
+}
+
+.b {
+  width: 100%;
+  height: 300px;
+}
+
+.c {
+  width: 100%;
+  height: 100px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.d {
+  width: 100%;
+  height: 100px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.e {
+  width: 100%;
+  height: 100px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.f {
+  width: 100%;
+height: 150px;
+}
+
+/*needs work */
+
+@media (max-width: 600px) {
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+  }
+
+  .a {
+  min-height: 100px;
+  width: 100%;
+  }
+  
+  .b {
+    min-height: 250px;
+    width: 100%;
+  }
+  .c {
+    min-height: 50px;
+    width: 100%;
+  }
+  
+  }   

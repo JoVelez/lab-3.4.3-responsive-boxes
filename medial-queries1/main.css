@@ -1,3 +1,54 @@
 body {
   background: blanchedalmond;
 }
+
+div {
+  background-color: burlywood;
+  border: 2px solid rgb(138, 108, 62);
+}
+
+.container {
+  display: flex;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+
+.a {
+width: 100%;
+height: 150px;
+}
+
+.b {
+  flex-grow:1;
+  width: 100%;
+  height: 500px;
+}
+
+.c {
+  flex-grow:0;
+  align-self:auto;
+  width: 50%;
+  height: 500px;
+}
+
+/*needs work */
+
+@media (max-width: 600px) {
+
+.a {
+min-height: 100px;
+width: 100%;
+}
+
+.b {
+  min-height: 450px;
+  width: 100%;
+}
+.c {
+  min-height: 100px;
+  width: 100%;
+}
+
+}                                  
